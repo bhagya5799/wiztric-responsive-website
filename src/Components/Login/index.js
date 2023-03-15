@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai'
 import './index.css'
-// import Cookies from 'js-cookie'
-// import Loader from 'react-loader-spinner'
 import { Link } from 'react-router-dom'
 
 const Login = (props) => {

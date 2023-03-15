@@ -60,7 +60,6 @@ const Home = () => {
             </div>
             <div className='body'>
                 <h4 className='table-name'>InverterData tables</h4>
-              
                 <div className='table-data'>
                     <Tables />
                 </div>

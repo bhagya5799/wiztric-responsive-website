@@ -4,27 +4,19 @@ tfoot {
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
 }
-
-tbody {
-    /* background-color: #e4f0f5; */
-}
-
 caption {
     padding: 10px;
     caption-side: bottom;
 }
-
 table {
     border-collapse: collapse;
     border: 1px solid rgb(211, 211, 211);
-    /* letter-spacing: 1px; */
+    width: 100%;
     font-family: sans-serif;
     font-size: 12px;
 }
-
-
 th {
-    /* border: 1px solid rgb(190, 190, 190); */
+    
     padding: 5px 8px;
     font-size: 13px;
     color: rgb(116, 113, 113);
@@ -34,9 +26,7 @@ tr{
 }
 
 td {
-    text-align: center;
-
-    
+    text-align: center;   
 }
 .inverter{
     font-size: 12px;
@@ -45,7 +35,6 @@ td {
    color: rgb(60, 60, 60);
    text-align: flex-start;
 }
-
 .view-btn{
     background-color: black;
     color: white;

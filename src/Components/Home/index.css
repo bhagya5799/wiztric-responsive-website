@@ -7,8 +7,8 @@ body,
   background-color: #f4f1f1;
   max-height: 100dvh;
   display: grid;
-  grid-template-rows: 3fr 1.5fr 7.5fr;
   row-gap: 10px;
+
 }
 .total-result-card {
     padding: 10px;
@@ -35,6 +35,7 @@ ul {
 .table-data {
   max-height: 400px;
   overflow-y: scroll;
+  width: 100%;
   
 }
 ul {

@@ -5,7 +5,6 @@ import './index.css'
 
 const Header = () => {
     const date = new Date();
-    // console.log(date)
     const showTime = date.toLocaleString('default', { month: 'long' })+" "+date.getDate()+" "+date.getFullYear()
     const time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds()
   

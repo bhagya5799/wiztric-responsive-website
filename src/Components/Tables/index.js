@@ -123,21 +123,160 @@ const Tables
                 LifeTimeEnergy: '837.33',
                 EnergyForDay: '457.33',
                 WaterTemp: '24'
+            }, {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+            {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+            {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+            {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+            {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+            {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+         {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+         {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+            {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
+            },
+            {
+                Inverter: 'Block-2_inverter-1',
+                Voltage: '234',
+                ActivePower: '1298',
+                Current: '1234',
+                ApparentPower: '951.83',
+                IGGBTTemp: '93',
+                InductorTemp: '48',
+                DcInputPower: '963.1',
+                AmbitentTemp: '245',
+                DcVoltage: '998',
+                LifeTimeEnergy: '937.33',
+                EnergyForDay: '457.33',
+                WaterTemp: '20'
             },]
+            
+            
 
         const headings = Object.keys(data[0])
-
-        // const mapInverter = data.map((each) => each.Inverter).filter((item,index) => {
-        //     if (index % 2 === 0){
-        //         return 'true'
-        //     }
-        //     else{
-        //         return 'false'
-        //     }
-        // })
-
-        // console.log(mapInverter,'ok')
-
         return (
             <div className='table'>
                 <table>
@@ -164,7 +303,6 @@ const Tables
                                 <td>{row.LifeTimeEnergy}</td>
                                 <td>{row.EnergyForDay}</td>
                                 <td>{row.WaterTemp} &nbsp;&nbsp;<button className='view-btn'>View</button></td>
-                                
                             </tr>
                         ))}
                     </tbody>
