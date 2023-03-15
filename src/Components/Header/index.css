@@ -1,0 +1,64 @@
+
+.nav-bar{
+    padding: 1rem;
+    background-color: rgb(248, 244, 244);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigate-link{
+    text-decoration: none;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-btn{
+    border: none;
+    color: #3ebab6;
+
+   background-color: transparent;
+   font-weight: bold;
+   font-size: 16px;
+}
+.nav-title-div{
+    display: flex;
+    gap: 3rem;
+ align-items: center;
+}
+.dashboard-btn{
+     border: 1px solid rgb(164, 162, 162) ;
+    border-bottom: 0ch;
+    border-right: 0;
+    border-top: 0;
+   font-family: Georgia, serif;
+   background-color: transparent;
+   font-weight: bold;
+   font-size: 16px;
+   padding: 4px;
+   color: rgb(99, 100, 100);
+}
+.login-arrow{
+    margin-top: 10px;
+    color: rgb(8, 8, 8);
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+.bell-div{
+   
+    position: relative;
+}
+.bell-count{
+    position: absolute;
+    top: -11px;
+    background-color: red;
+    color: azure;
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 10px;
+ 
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
